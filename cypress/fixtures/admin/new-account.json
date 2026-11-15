@@ -1,0 +1,11 @@
+{
+  "name": "New account 8",
+  "phone": "123-456-7890",
+  "address1": "123 Main Street",
+  "address2": "Apt 456 Cross Layout",
+  "city": "Toronto",
+  "province": "Ontario",
+  "postalCode": "L6H 0H3",
+  "defaultAdminFirstName": "Admin",
+  "onboardingWorkbook": "files/account-onboard-template.xlsx"
+}

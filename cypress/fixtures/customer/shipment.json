@@ -1,0 +1,36 @@
+{
+  "quote": {
+    "fromPostalCode": "L6H 0H3",
+    "toPostalCode": "M4N 2K6",
+    "length": "10.36",
+    "width": "12.87",
+    "height": "12.75",
+    "weight": "10.009",
+    "signatureRequired": true
+  },
+  "shipFrom": {
+    "name": "Test 1",
+    "address": "1225 Trafalgar Road",
+    "phone": "1234567890",
+    "email": "test1@example.com"
+  },
+  "shipTo": {
+    "name": "Test 2",
+    "address": "3100 Yonge street",
+    "phone": "0987654321",
+    "email": "test2@example.com"
+  },
+  "references": {
+    "first": "#2345678654",
+    "second": "#4567876548"
+  },
+  "packageDescription": "Handle with care",
+  "insuranceAmount": "500",
+  "directPackage": {
+    "length": "12.34",
+    "width": "12.34",
+    "height": "15.876",
+    "weight": "8.94"
+  },
+  "bulkWorkbook": "files/bulk-shipment-data.xlsx"
+}

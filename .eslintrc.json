@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "env": { "es2022": true, "browser": true, "node": true, "mocha": true },
+  "parserOptions": { "ecmaVersion": 2022, "sourceType": "module" },
+  "plugins": ["cypress"],
+  "extends": ["eslint:recommended", "plugin:cypress/recommended", "prettier"],
+  "rules": {
+    "eqeqeq": ["error", "always"],
+    "prefer-const": "error",
+    "no-var": "error",
+    "no-console": "warn",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/unsafe-to-chain-command": "error",
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error"
+  },
+  "overrides": [
+    {
+      "files": ["cypress.config.js"],
+      "parserOptions": { "sourceType": "script" }
+    }
+  ],
+  "ignorePatterns": [
+    "node_modules/",
+    "cypress/results/",
+    "cypress/screenshots/",
+    "cypress/videos/",
+    "cypress/downloads/"
+  ]
+}

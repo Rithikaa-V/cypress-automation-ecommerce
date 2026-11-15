@@ -1,0 +1,13 @@
+{
+  "newUser": {
+    "firstName": "Test",
+    "lastName": "User",
+    "phone": "000000888888"
+  },
+  "newAddress": {
+    "name": "Test 1",
+    "street": "1225 Trafalgar Road",
+    "phone": "98765435678",
+    "email": "test@example.com"
+  }
+}

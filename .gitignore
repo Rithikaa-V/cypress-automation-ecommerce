@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# local secrets - copy cypress.env.example.json to cypress.env.json
+cypress.env.json
+
+# Cypress run output
+cypress/results/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+docs/
+README.local.md

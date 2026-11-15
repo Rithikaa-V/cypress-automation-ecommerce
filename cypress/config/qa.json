@@ -1,0 +1,10 @@
+{
+  "env": {
+    "adminUrl": "https://d2g0fbldun0gex.cloudfront.net/",
+    "customerUrl": "https://d2cyh9ca0lbk46.cloudfront.net/",
+    "phase2AdminUrl": "http://ecom-admin-fe-webapp-phase-2.s3-website.ca-central-1.amazonaws.com/",
+    "useSessionCache": false,
+    "runPasswordChange": false,
+    "runAccountOnboarding": false
+  }
+}
